@@ -1,0 +1,28 @@
+{
+  "name": "superfly-css-variables-fonts",
+  "version": "0.0.0",
+  "description": "Font family variables",
+  "main": "src/main/css/index.css",
+  "style": "src/main/css/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superfly-css/superfly-css-variables-fonts.git"
+  },
+  "keywords": [
+    "css",
+    "superfly-css",
+    "font",
+    "font-family",
+    "variables",
+    "style"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superfly-css/superfly-css-variables-fonts/issues"
+  },
+  "homepage": "https://github.com/superfly-css/superfly-css-variables-fonts#readme"
+}
