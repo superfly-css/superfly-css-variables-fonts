@@ -1,26 +1,33 @@
 /* =======================================
-   FONT FAMILY VARIABLES
+   FONT VARIABLES
    =======================================
-   1:  Sans serif font family (Bootstrap default)
-   2:  Helvetica font stack.  For more see See
+   1a:  Sans serif font family (Bootstrap default)
+   1b:  Helvetica font stack.  For more see See
        https://css-tricks.com/snippets/css/better-helvetica
-   3:  Bootstrap's default monospace font
+   1c:  Bootstrap's default monospace font
        for `<code>`, `<kbd>`, and `<pre>`.
-   4:  Serif font family
-   5:  Titillium font family
-   6:  Gibson font family
+   1d:  Serif font family
+   1e:  Titillium font family
+   1f:  Gibson font family
+
+   2a: Font size root foundation variable
    --------------------------------------- */
 :root {
-/* 1 */
+/* 1a */
   --font-family-sans-serif: '"Helvetica Neue",Helvetica,Arial,sans-serif';
-/* 2 */
+/* 1b */
   --font-family-helvetica: 'HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Helvetica Neue", Arial, "Lucida Grande", sans-serif';
-/* 3 */
+/* 1c */
   --font-family-monospace: 'Menlo, Monaco, Consolas, "Courier New", monospace';
-/* 4 */
+/* 1d */
   --font-family-serif: 'Georgia, "Times New Roman", Times, serif';
-/* 5 */
+/* 1e */
   --font-family-titillium: "Titillium Web","Lucida Grande","Lucida Sans",sans-serif;
-/* 6 */
+/* 1f */
   --font-family-gibson: 'Gibson, var(--font-family-helvetica)';
+}
+
+:root {
+/* 2a */
+  --font-size-root: 16px;
 }
