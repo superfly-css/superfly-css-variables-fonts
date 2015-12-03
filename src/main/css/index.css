@@ -4,7 +4,7 @@
    1a:  Sans serif font family (Bootstrap default)
    1b:  Helvetica font stack.  For more see See
        https://css-tricks.com/snippets/css/better-helvetica
-   1c:  Bootstrap's default monospace font
+   1c:  Bootstraps default monospace font
        for `<code>`, `<kbd>`, and `<pre>`.
    1d:  Serif font family
    1e:  Titillium font family
@@ -14,17 +14,17 @@
    --------------------------------------- */
 :root {
 /* 1a */
-  --font-family-sans-serif: '"Helvetica Neue",Helvetica,Arial,sans-serif';
+  --font-family-sans-serif: "Helvetica Neue",Helvetica,Arial,sans-serif;
 /* 1b */
-  --font-family-helvetica: 'HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Helvetica Neue", Arial, "Lucida Grande", sans-serif';
+  --font-family-helvetica: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 /* 1c */
-  --font-family-monospace: 'Menlo, Monaco, Consolas, "Courier New", monospace';
+  --font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
 /* 1d */
-  --font-family-serif: 'Georgia, "Times New Roman", Times, serif';
+  --font-family-serif: Georgia, "Times New Roman", Times, serif;
 /* 1e */
   --font-family-titillium: "Titillium Web","Lucida Grande","Lucida Sans",sans-serif;
 /* 1f */
-  --font-family-gibson: 'Gibson, var(--font-family-helvetica)';
+  --font-family-gibson: Gibson, var(--font-family-helvetica);
 }
 
 :root {
