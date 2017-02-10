@@ -3,12 +3,13 @@
    =======================================
    1a:  Sans serif font family (Bootstrap default)
    1b:  Helvetica font stack.  For more see See
-       https://css-tricks.com/snippets/css/better-helvetica
+        https://css-tricks.com/snippets/css/better-helvetica
    1c:  Bootstraps default monospace font
-       for `<code>`, `<kbd>`, and `<pre>`.
+        for `<code>`, `<kbd>`, and `<pre>`.
    1d:  Serif font family
+   1f:  Ampersand font family
    1e:  Titillium font family
-   2a: Font size root foundation variable
+   2a:  Font size root foundation variable
    --------------------------------------- */
 :root {
 /* 1a */
@@ -21,6 +22,8 @@
   --font-family-serif: Georgia, "Times New Roman", Times, serif;
 /* 1e */
   --font-family-titillium: "Titillium Web","Lucida Grande","Lucida Sans",sans-serif;
+/* 1f */
+   --font-family-ampersand: Ampersand,ff-more-web-pro,"More Pro",Georgia,Times,serif;
 }
 
 :root {
