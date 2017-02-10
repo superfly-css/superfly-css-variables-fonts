@@ -7,8 +7,8 @@
    1c:  Bootstraps default monospace font
         for `<code>`, `<kbd>`, and `<pre>`.
    1d:  Serif font family
-   1f:  Ampersand font family
-   1e:  Titillium font family
+   1e:  Titillium font family / sci-fi looking font
+   1f:  Ampersand font family popular technical blogs
    2a:  Font size root foundation variable
    --------------------------------------- */
 :root {
