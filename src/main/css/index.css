@@ -8,8 +8,6 @@
        for `<code>`, `<kbd>`, and `<pre>`.
    1d:  Serif font family
    1e:  Titillium font family
-   1f:  Gibson font family
-
    2a: Font size root foundation variable
    --------------------------------------- */
 :root {
@@ -23,8 +21,6 @@
   --font-family-serif: Georgia, "Times New Roman", Times, serif;
 /* 1e */
   --font-family-titillium: "Titillium Web","Lucida Grande","Lucida Sans",sans-serif;
-/* 1f */
-  --font-family-gibson: Gibson, var(--font-family-helvetica);
 }
 
 :root {
