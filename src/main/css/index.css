@@ -1,7 +1,7 @@
 /* =======================================
    FONT VARIABLES
    =======================================
-   1a:  Sans serif font family (Bootstrap default)
+   1a:  Helvetica-neue / Sans serif font family (Bootstrap default)
    1b:  Helvetica font stack.  For more see See
         https://css-tricks.com/snippets/css/better-helvetica
    1c:  Bootstraps default monospace font
@@ -10,16 +10,17 @@
    1e:  Titillium font family / sci-fi looking font
    1f:  Ampersand font family popular technical blogs
    2a:  Font size root foundation variable
+   3a:  Font size range
    --------------------------------------- */
 :root {
 /* 1a */
-  --font-family-sans-serif: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-family-sans-helvetica-neue: "Helvetica Neue",Helvetica,Arial,sans-serif;
 /* 1b */
-  --font-family-helvetica: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  --font-family-helvetica-neue-light: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 /* 1c */
-  --font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+  --font-family-menlo: Menlo, Monaco, Consolas, "Courier New", monospace;
 /* 1d */
-  --font-family-serif: Georgia, "Times New Roman", Times, serif;
+  --font-family-georgia: Georgia, "Times New Roman", Times, serif;
 /* 1e */
   --font-family-titillium: "Titillium Web","Lucida Grande","Lucida Sans",sans-serif;
 /* 1f */
@@ -29,4 +30,23 @@
 :root {
 /* 2a */
   --font-size-root: 16px;
+}
+
+
+/* 3 */
+:root {
+  --font-size-100: 0.750rem;
+  --font-size-200: 0.875rem;
+  --font-size-300: 1.000rem;
+
+  --font-size-400: 1.250rem;
+  --font-size-500: 1.500rem;
+  --font-size-600: 1.750rem;
+  --font-size-700: 2.000rem;
+  --font-size-800: 2.500rem;
+  --font-size-900: 3.000rem;
+
+  --font-size-xs: var(--font-size-100);
+  --font-size-sm: var(--font-size-200);
+  --font-size-lg: var(--font-size-400);
 }
